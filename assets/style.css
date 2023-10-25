@@ -78,8 +78,6 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 100%;
     background: #e12613;
     border: 2px solid #e12613;
     border-radius: 8px;
@@ -133,7 +131,7 @@ body{
     background: #000305;
     font-size: 2vh;
     font-weight: 500;
-    padding: 10% 10%;
+    padding: 2% 0 2% 0;
 }
 
 .creador a{
