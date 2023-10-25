@@ -13,36 +13,23 @@ body{
 }
 
 .header{
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
     background: transparent;
+    background: #000305;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 100;
 }
 
 .logo{
-    font-size: 25px;
+    font-size: 5vh;
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
-}
-
-.navbar a{
-    font-size: 18px;
-    color: #e12613;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-}
-
-.navbar a:hover,
-.navbar a.active{
-    color: #e12613;
 }
 
 .home{
@@ -58,34 +45,32 @@ body{
 }
 
 .home-container{
-    max-width: 600px;
-    
-
+    max-width: 95%;
 }
 
 .home-container h1{
-    font-size: 56px;
+    font-size: 5vh;
     font-weight: 700;
     line-height: 1.2;
 }
 
 .home-container h3{
-    font-size: 32px;
+    font-size: 4vh;
     font-weight: 700;
     color: #e12613;
     
 }
 
 .home-container p{
-    font-size: 16px;
+    font-size: 3vh;
     margin: 20px 0 40px;
 }
 
 .home-container .btn-box{
     display: flex;
-    justify-content: space-between;
-    width: 345px;
-    height: 50px;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
 }
 
 .btn-box a{
@@ -98,7 +83,7 @@ body{
     background: #e12613;
     border: 2px solid #e12613;
     border-radius: 8px;
-    font-size: 19px;
+    font-size: 3vh;
     color: #081b29;
     text-decoration: none;
     font-weight: 600;
@@ -108,12 +93,11 @@ body{
 }
 
 .home-sci{
-    position: absolute;
-    bottom: 40px;
-    width: 180px;
-    
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: #000305;
+    padding: 2%;
 }
 
 .home-sci a{
@@ -125,7 +109,7 @@ body{
     background: transparent;
     border: 2px solid #e12613;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 3vh;
     color: #e12613;
     text-decoration: none;
     
@@ -144,19 +128,18 @@ body{
 }
 
 .creador{
-    position: absolute;
-    bottom: 40px;
-    width: 40%;
-    right: 0%;
-    margin: 10px;
-    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background: #000305;
+    font-size: 2vh;
+    font-weight: 500;
+    padding: 10% 10%;
 }
 
 .creador a{
     color: #e12613;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 2vh;
     font-weight: 500;
+    padding-left: 1%;
 }
