@@ -142,3 +142,21 @@ body{
     background: black;
     opacity: .8;
 }
+
+.creador{
+    position: absolute;
+    bottom: 40px;
+    width: 40%;
+    right: 0%;
+    margin: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.creador a{
+    color: #e12613;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+}
