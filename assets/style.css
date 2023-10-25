@@ -27,14 +27,14 @@ body{
 
 .logo{
     font-size: 25px;
-    color: #ededed;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a{
     font-size: 18px;
-    color: #ededed;
+    color: #e12613;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -42,12 +42,12 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #ba9323;
+    color: #e12613;
 }
 
 .home{
     height: 100vh;
-    background: url('../img/aaa.png') no-repeat;
+    background: url('../img/chack.jpg') no-repeat;
     opacity: .98;
     background-size: cover;
     background-position: center;
@@ -72,7 +72,7 @@ body{
 .home-container h3{
     font-size: 32px;
     font-weight: 700;
-    color: #ba9323;
+    color: #e12613;
     
 }
 
@@ -95,8 +95,8 @@ body{
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #ba9323;
-    border: 2px solid #ba9323;
+    background: #e12613;
+    border: 2px solid #e12613;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
@@ -105,40 +105,6 @@ body{
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
-}
-
-.btn-box a:hover{
-    color: #081b29;
-}
-
-.btn-box a:nth-child(2){
-    background: transparent;
-    color: #ba9323;
-}
-
-.btn-box a:nth-child(2):hover{
-    color: #081b29;
-}
-
-.btn-box a:nth-child(2)::before{
-    background: #ba9323;
-}
-
-.btn-box a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #ba9323;
-    z-index: 1;
-    transition: .5s;
-}
-
-.btn-box a:hover::before{
-    width: 100%;
 }
 
 .home-sci{
@@ -157,27 +123,22 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #ba9323;
+    border: 2px solid #e12613;
     border-radius: 50%;
     font-size: 20px;
-    color: #ba9323;
+    color: #e12613;
     text-decoration: none;
     
 }
 
-.home-imgHover{
-    position: absolute;
-    top: 0;
-    right: 30px;
-    width: 50%;
-    height: 100%;
+.home-container{
     background: transparent;
     transition: 3s;
+    border-radius: 5px;
+    padding: 5%;
 }
 
-.home-imgHover:hover{
+.home-container:hover{
     background: black;
     opacity: .8;
 }
-
-
